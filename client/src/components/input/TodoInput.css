@@ -1,0 +1,24 @@
+.todo-input{
+    display: flex;
+    gap: 1rem;
+}
+.todo-input>input{
+    border: none;
+    outline: none;
+    background: transparent;
+    height: 2rem;
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+.button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 2px 20px;
+}
+.button:hover{
+    cursor:pointer;
+}
+.title{
+    text-align: center;
+}
